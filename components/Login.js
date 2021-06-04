@@ -14,7 +14,7 @@ function Login() {
         className="p-5 bg-blue-500 rounded-full text-white text-center w-1/6 cursor-pointer"
         onClick={signIn}
       >
-        Login with Facebook
+        Login to Facebook
       </h1>
     </div>
   );
