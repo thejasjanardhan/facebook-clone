@@ -11,7 +11,7 @@ function Login() {
         objectFit="contain"
       />
       <h1
-        className="p-5 bg-blue-500 rounded-full text-white text-center w-1/6 cursor-pointer"
+        className="p-5 bg-blue-500 rounded-full text-white text-center sm:w-1/6 cursor-pointer"
         onClick={signIn}
       >
         Login to Facebook
