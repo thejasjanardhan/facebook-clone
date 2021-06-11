@@ -27,11 +27,16 @@ const stories = [
     src: "https://links.papareact.com/4u4",
     profile: "https://links.papareact.com/zvy",
   },
+  {
+    name: "Bill Gates",
+    src: "https://links.papareact.com/4u4",
+    profile: "https://links.papareact.com/zvy",
+  },
 ];
 
 function Stories() {
   return (
-    <div className="flex justify-center space-x-3 mx-auto">
+    <div className="flex space-x-3 mx-auto p-3 overflow-x-scroll scrollbar-hide whitespace-nowrap ">
       {stories.map((story) => (
         <StoryCard name={story.name} src={story.src} profile={story.profile} />
       ))}
